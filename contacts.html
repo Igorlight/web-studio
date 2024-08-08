@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Контакты</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240808153308">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="1" class="header">
+			<a href="#" class="header__logo"><img src="img/logo.svg" alt="логотип в хедере"></a>
+			<div class="header__menu menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="/#" class="menu__link">главная</a></li>
+						<li class="menu__item"><a href="/projects.html" class="menu__link">проекты</a></li>
+						<li class="menu__item"><a href="/payment.html" class="menu__link">оплата</a></li>
+						<li class="menu__item"><a href="/blog.html" class="menu__link">блог</a></li>
+						<li class="menu__item"><a href="/contacts.html" class="menu__link">контакты</a></li>
+					</ul>
+				</nav>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__wrapper">
+						<div class="contacts__title-wrapper animate-on-scroll over-hidden">
+							<h1 class="contacts__title title child-element">Контакты</h1>
+						</div>
+
+						<div class="contacts__content animate-on-scroll-side">
+							<ul class="contacts__info child-element-left">
+								<li class="contacts__item">
+									<p class="contacts__subtitle">Имя:</p>
+									<p class="contacts__subtext">Канаев Игорь Сергеевич</p>
+								</li>
+								<li class="contacts__item">
+									<p class="contacts__subtitle">Город:</p>
+									<p class="contacts__subtext">Якутск</p>
+								</li>
+								<li class="contacts__item">
+									<p class="contacts__subtitle">Номер телефона:</p>
+									<p class="contacts__subtext">+7(914)105-69-54</p>
+								</li>
+								<li class="contacts__item">
+									<p class="contacts__subtitle">Почта:</p>
+									<p class="contacts__subtext">Gothic2-3@mail.ru</p>
+								</li>
+							</ul>
+							<div class="contacts__form child-element-right">
+								<h2 class="contacts__quest">Есть вопросы ?</h2>
+								<form class="form" method="POST">
+									<div class="form__item">
+										<label for="formName">Имя:</label>
+										<input maxlength="20" type="text" name="name" id="formName" placeholder="Ваше Имя">
+									</div>
+									<div class="form__item">
+										<label for="formTel">Телефон для связи:</label>
+										<input maxlength="20" type="tel" name="tel" id="formTel" placeholder="Номер телефона">
+									</div>
+									<div class="form__item">
+										<label for="formEmail">Почта:</label>
+										<input maxlength="80" type="email" name="email" id="formEmail" placeholder="Email">
+									</div>
+									<div class="form__item">
+										<label for="formTextarea">Введите сообщение:</label>
+										<textarea name="textarea" id="FormTextarea" placeholder="Текст сообщения"></textarea>
+									</div>
+									<div class="form__item">
+										<div class="form__checkbox">
+											<input id="formAgree" type="checkbox" name="agreement">
+											<label for="formAgree">
+												<p class="form__agreement">Я даю своё согласие на обработку персональных
+													данных в соответствии с <a href="#">Условиями</a></p>
+											</label>
+										</div>
+									</div>
+									<button class="form__button" type="submit">Отправить</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" id="footer">
+			<div class="footer__logo">
+				<img src="img/logo.svg" class="footer__logo-img" alt="Мой логотип">
+				<img src="img/shao.png" class="footer__img" alt="картинка аниме">
+			</div>
+			<ul class="footer__list links-footer">
+				<h3 class="footer__title">Навигация</h3>
+				<li class="links-footer__item"><a href="/#" class="links-footer__link">Главная</a></li>
+				<li class="links-footer__item"><a href="/projects.html" class="links-footer__link">Проекты</a></li>
+				<li class="links-footer__item"><a href="/payment.html" class="links-footer__link">Оплата</a></li>
+				<li class="links-footer__item"><a href="/blog.html" class="links-footer__link">Блог</a></li>
+				<li class="links-footer__item"><a href="/contacts.html" class="links-footer__link">Контакты</a></li>
+			</ul>
+			<div class="footer__contacts contacts-footer">
+				<h3 class="footer__title">Контакты</h3>
+				<div class="contacts-list contacts-list-footer">
+					<a href="https://wa.me/79141056954" class="contacts-list__link _icon-whatsapp"></a>
+					<a href="https://t.me/Igorlajty" class="contacts-list__link _icon-telegram"></a>
+					<a href="https://github.com/Igorlight/" class="contacts-list__link _icon-github"></a>
+					<a href="https://vk.com/askalak" class="contacts-list__link _icon-vk"></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20240808153308"></script>
+</body>
+
+</html>
